@@ -1,0 +1,75 @@
+/* Top css */
+html {
+	background:url(../images/diamond-upholstery.png) grey;
+}
+
+.container {
+	background: white;
+	box-shadow: 0 0 1px 1px black;
+	-webkit-box-shadow: 0 0 1px 1px black;
+	-moz-box-shadow: 0 0 1px 1px black;
+}
+
+#title {
+	text-align: center;
+	margin: 0 auto;
+}
+
+#primary-contact {
+	float: right;
+}
+
+.top-sec {
+	display: inline-block;
+	margin-right: 5px;
+}
+
+/* Style all font awesome icons */
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 15px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa-small {
+    padding: 5px;
+    font-size: 30px;
+    width: 15px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* Nav section */
+
+#nav {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	margin-top: 5px;
+	font-size: 1.2em;
+}
+
+.nav-sec {
+	text-align: center;
+}
+
+.nav-sec:hover {
+	background: black;
+}
+
+/* Footer */
+
+#footer {
+	margin-top: 10px;
+	padding: 15px;
+}
