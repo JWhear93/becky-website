@@ -12,10 +12,12 @@ body {
 	box-shadow: 0 0 1px 1px black;
 	-webkit-box-shadow: 0 0 1px 1px black;
 	-moz-box-shadow: 0 0 1px 1px black;
+	max-width: 1400px;
 }
 
 a {
 	text-decoration: none;
+	color: #00A0D2;
 }
 
 a:hover {
@@ -26,6 +28,7 @@ a:hover {
 	text-align: center;
 	margin: 0 auto;
 	font-family: 'Dancing Script', cursive;
+	font-size: 4.2em;
 }
 
 #primary-contact {
@@ -51,19 +54,62 @@ a:hover {
 	border-bottom: 1px solid black;
 	margin-top: 5px;
 	font-size: 1.4em;
+	background: #5c87ff;
+}
+
+#nav a {
+	color: #FFF;
+}
+
+#nav a:active {
+	background: white;
+}
+
+#nav a:hover {
+	color: #5c87ff;
 }
 
 .nav-sec {
 	text-align: center;
+	width: 50%;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+}
+
+@media (min-width: 550px) {
+	.nav-sec {
+		width: 100%;
+		border-left: 0;
+		border-right: 0;
+	}
 }
 
 .nav-sec:hover {
-	background: black;
+	background: white;
 }
 
+/* Main area */
+#main-area {
+	margin-top: 10px;
+	padding: 10px 0;
+}
+
+#main-area p::first-letter {
+	font-size: 140%;
+}
+
+.main-text {
+	padding: 0 4%;
+	font-size: 1.1em;
+}
+
+.main-text p::first-letter {
+	font-size: 140%;
+}
 /* Footer */
 
 #footer {
 	margin-top: 10px;
 	padding: 15px;
+	font-size: 1.1em;
 }

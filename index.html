@@ -33,21 +33,104 @@
 </head>
 <body>
 
+	<!-- #region Jssor Slider Begin -->
+    <!-- Generator: Jssor Slider Maker -->
+    <!-- Source: https://www.jssor.com -->
+    <script src="js/jssor.slider-26.5.2.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        jssor_1_slider_init = function() {
+
+            var jssor_1_options = {
+              $AutoPlay: 1,
+              $FillMode: 5,
+              $PauseOnHover: 3,
+              $Align: 0,
+              $ArrowNavigatorOptions: {
+                $Class: $JssorArrowNavigator$
+              },
+              $BulletNavigatorOptions: {
+                $Class: $JssorBulletNavigator$
+              }
+            };
+
+            var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+
+            /*#region responsive code begin*/
+
+            var MAX_WIDTH = 960;
+
+            function ScaleSlider() {
+                var containerElement = jssor_1_slider.$Elmt.parentNode;
+                var containerWidth = containerElement.clientWidth;
+
+                if (containerWidth) {
+
+                    var expectedWidth = Math.min(MAX_WIDTH || containerWidth, containerWidth);
+
+                    jssor_1_slider.$ScaleWidth(expectedWidth);
+                }
+                else {
+                    window.setTimeout(ScaleSlider, 30);
+                }
+            }
+
+            ScaleSlider();
+
+            $Jssor$.$AddEvent(window, "load", ScaleSlider);
+            $Jssor$.$AddEvent(window, "resize", ScaleSlider);
+            $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
+            /*#endregion responsive code end*/
+        };
+    </script>
+    <style>
+        /* jssor slider loading skin spin css */
+        .jssorl-009-spin img {
+            animation-name: jssorl-009-spin;
+            animation-duration: 1.6s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+
+        @keyframes jssorl-009-spin {
+            from {
+                transform: rotate(0deg);
+            }
+
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+
+        .jssorb052 .i {position:absolute;cursor:pointer;}
+        .jssorb052 .i .b {fill:#000;fill-opacity:0.3;}
+        .jssorb052 .i:hover .b {fill-opacity:.7;}
+        .jssorb052 .iav .b {fill-opacity: 1;}
+        .jssorb052 .i.idn {opacity:.3;}
+
+        .jssora052 {display:block;position:absolute;cursor:pointer;}
+        .jssora052 .a {fill:none;stroke:#000;stroke-width:360;stroke-miterlimit:10;}
+        .jssora052:hover {opacity:.8;}
+        .jssora052.jssora052dn {opacity:.5;}
+        .jssora052.jssora052ds {opacity:.3;pointer-events:none;}
+    </style>
+
 	<!-- Primary Page Layout
 	–––––––––––––––––––––––––––––––––––––––––––––––––– -->
 	<div class="container">
 		<div id="main-title" class="row">
 			<div class="nine columns">
-				<div><h2 id="title">White Cove Cottage</h2></div>
+				<div><h1 id="title">White Cove Cottage</h1></div>
 			</div>
 			<div id="primary-contact" class="three columns">
 				<div class="top-sec" style="padding: 5px;"><span>Primary Contact</span></div>
-				<div class="top-sec" style="float: right;"><a href=""><i class="fa fa-facebook-official fa-2x"></i></a></div>
+				<div class="top-sec" style="float: right;"><a href="https://www.facebook.com/whitecove" target="_blank"><i class="fa fa-facebook-official fa-2x"></i></a></div>
 			</div>
 		</div>
 		<div id="nav" class="row">
-			<a href="" class="two columns nav-sec"><div>
-				<span>Page</span>
+			<a href="index.html" class="two columns nav-sec" style="color: black;"><div>
+				<span><i class="fa fa-home" aria-hidden="true"></i>
+					Home</span>
 			</div></a>
 			<a href="" class="two columns nav-sec"><div>
 				<span>Page</span>
@@ -65,13 +148,110 @@
 				<span>Page</span>
 			</div></a>
 		</div>
-		
+	</div>
+	<div class="container">
+		<div id="main-area" class="row">
+			<div class="four columns u-pull-left">
+				<h3 style="padding-left: 4%;">Welcome to White Cove.</h3>
+			</div>
+			<div class="eight columns u-pull-right">
+				<div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:960px;height:450px;overflow:hidden;visibility:hidden;">
+			        <!-- Loading Screen -->
+			        <div data-u="loading" class="jssorl-009-spin" style="position:absolute;top:0px;left:0px;width:100%;height:100%;text-align:center;background-color:rgba(0,0,0,0.7);">
+			            <img style="margin-top:-19px;position:relative;top:50%;width:38px;height:38px;" src="img/spin.svg" />
+			        </div>
+			        <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:960px;height:450px;overflow:hidden;">
+			            <div>
+			                <img data-u="image" src="images/16.jpg" />
+			            </div>
+			            <div>
+			                <img data-u="image" src="images/15.jpg" />
+			            </div>
+			            <div>
+			                <img data-u="image" src="images/14.jpg" />
+			            </div>
+			            <div>
+			                <img data-u="image" src="images/13.jpg" />
+			            </div>
+			            <div>
+			                <img data-u="image" src="images/12.jpg" />
+			            </div>
+			            <div>
+			                <img data-u="image" src="images/11.jpg" />
+			            </div>
+			            <div>
+			                <img data-u="image" src="images/10.jpg" />
+			            </div>
+			            <div>
+			                <img data-u="image" src="images/09.jpg" />
+			            </div>
+			            <div>
+			                <img data-u="image" src="images/08.jpg" />
+			            </div>
+			            <div>
+			                <img data-u="image" src="images/07.jpg" />
+			            </div>
+			            <div>
+			                <img data-u="image" src="images/06.jpg" />
+			            </div>
+			            <div>
+			                <img data-u="image" src="images/04.jpg" />
+			            </div>
+			            <div>
+			                <img data-u="image" src="images/03.jpg" />
+			            </div>
+			            <div>
+			                <img data-u="image" src="images/02.jpg" />
+			            </div>
+			            <div>
+			                <img data-u="image" src="images/01.jpg" />
+			            </div>
+			        </div>
+			        <!-- Bullet Navigator -->
+			        <div data-u="navigator" class="jssorb052" style="position:absolute;bottom:12px;right:12px;" data-autocenter="1" data-scale="0.5" data-scale-bottom="0.75">
+			            <div data-u="prototype" class="i" style="width:16px;height:16px;">
+			                <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+			                    <circle class="b" cx="8000" cy="8000" r="5800"></circle>
+			                </svg>
+			            </div>
+			        </div>
+			        <!-- Arrow Navigator -->
+			        <div data-u="arrowleft" class="jssora052" style="width:40px;height:50px;top:0px;left:30px;" data-autocenter="2" data-scale="0.75" data-scale-left="0.75">
+			            <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+			                <polyline class="a" points="11040,1920 4960,8000 11040,14080 "></polyline>
+			            </svg>
+			        </div>
+			        <div data-u="arrowright" class="jssora052" style="width:40px;height:50px;top:0px;right:30px;" data-autocenter="2" data-scale="0.75" data-scale-right="0.75">
+			            <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+			                <polyline class="a" points="4960,1920 11040,8000 4960,14080 "></polyline>
+			            </svg>
+			        </div>
+			    </div>
+			    <script type="text/javascript">jssor_1_slider_init();</script>
+			    <!-- #endregion Jssor Slider End -->
+			</div>
+			<div class="main-text">
+				<div>
+					<br><br><p>White Cove is a lovely two bed, dog friendly cottage with wonderful sea views in the Downalong area of St Ives, right next to Porthgwidden Beach and the Island carpark. Porthgwidden beach is right outside the front door and down the slipway! You can sit and enjoy your breakfast and the view from the kitchen or living room or nip down to the local café/restaurant to enjoy breakfast and the view from there – or why not take your breakfast to the beach- its so close!</p>
+					<p>We have holidayed in St. Ives for over thirty years separately as children, then together as a couple and with friends and now as our own family. We love the area with its lovely sandy beaches and beautiful (often wild) views and scenery. We have explored many places and we hope to share these with you through the comments and suggestions left in our guest book and this site. We have not by any means found it all and we would love it if you could share your suggestions and experiences with us to help us continue to explore Cornwall with all its side streets and country lanes, coffee shops and eateries. We hope you enjoy wandering around St. Ives which is perfect for old legs and new, two legs and four as well as exploring further afield. It’s good to know you can always find a beach out of the wind for those who want to relax (or play) on the sand and in the sea!</p>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="twelve columns main-text">
+				<div>
+					<p>The buildings around Beach Court were originally used for storing fish and later as part of the fish processing activities. The buildings were converted into accommodation around 1960 and remain (on the outside at least) largely unchanged.</p>
+					<p>For us White Cove has been an aspiration finally reached. We hope you enjoy it as much as we do.</p>
+					<p>Please do write in the little blue guest book and if you use Facebook please ‘Like’ our page <a href="https://www.facebook.com/whitecove" target="_blank">https://www.facebook.com/whitecove</a> and post pictures of your stay, the places you have explored and (for those with dogs) pictures of your four-legged friends having fun on their holidays with you!</p>
+				</div>
+			</div>
+		</div>
 	</div>
 	<div class="container">
 		<div id="footer" class="row">
 			<div>
 				<ul>
-					<a href=""><li>Don't forget to check our Facebook page! - <i class="fa fa-facebook-official fa-lg"></i></li></a>
+					<a href="https://www.facebook.com/whitecove" target="_blank"><li>Don't forget to check our Facebook page! - <i class="fa fa-facebook-official fa-lg"></i></li></a>
 					<li>Primary contact</li>
 					<a href="#main-title"><li>Back to top <span>&#8673;</span></li></a>
 				</ul>
