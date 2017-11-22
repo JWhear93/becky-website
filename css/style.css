@@ -33,7 +33,13 @@ a:hover {
 
 #primary-contact {
 	float: right;
-	padding-top: 15px;
+	padding-top: 0;
+}
+
+@media (min-width: 550px) {
+	#primary-contact {
+		padding-top: 40px;
+	}
 }
 
 .top-sec {
