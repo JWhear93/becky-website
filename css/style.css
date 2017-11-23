@@ -29,6 +29,7 @@ a:hover {
 	margin: 0 auto;
 	font-family: 'Dancing Script', cursive;
 	font-size: 4.2em;
+	color: #5c87ff;
 }
 
 #main-title a:hover {
@@ -112,7 +113,7 @@ a:hover {
 }
 
 .main-text {
-	font-size: 1.1em;
+	font-size: 1.3em;
 }
 
 .main-text p::first-letter {
@@ -128,11 +129,23 @@ a:hover {
 .center-text {
 	max-width: 900px;
 	margin: 2.5rem auto;
+	text-align: center;
 }
 
 .center-img {
-	width: 50%;
+	width: ;
 	margin: 0 auto;
+}
+
+@media (min-width: 550px) {
+	.center-img {
+		width: 50%;
+	}
+}
+
+.nice-text {
+	background: #c3dcfe;
+	padding: 10px;
 }
 
 /* Footer */
