@@ -122,8 +122,19 @@ a:hover {
 .about-img {
 	max-height: 100%;
 	padding: 10px;
-	background: #9cb6ff;
+	background: #c3dcfe;
 }
+
+.center-text {
+	max-width: 900px;
+	margin: 2.5rem auto;
+}
+
+.center-img {
+	width: 50%;
+	margin: 0 auto;
+}
+
 /* Footer */
 
 #footer {
