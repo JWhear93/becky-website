@@ -83,7 +83,13 @@ a:hover {
 	border-left: 0;
 	border-right: 0;
 	border-bottom: 4px solid #5c87ff;
-	min-width: 144px;
+	padding: 10px;
+}
+
+@media (min-width: 550px) {
+	.nav-sec div {
+		height: 67.2px;
+	}
 }
 
 .nav-sec:hover {
