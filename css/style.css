@@ -166,3 +166,7 @@ a:hover {
 #foot-title a:hover {
 	text-decoration: none;
 }
+
+#footer div {
+	margin: 10px auto;
+}
