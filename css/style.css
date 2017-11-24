@@ -1,6 +1,6 @@
 /* Top css */
 html {
-	background:url(../images/concrete-wall.png) #c9e9e9;
+	background:url(../images/concrete-wall.png) #dbf2f2;
 }
 
 body {
@@ -80,10 +80,10 @@ a:hover {
 
 .nav-sec {
 	text-align: center;
-	width: 50%;
 	border-left: 0;
 	border-right: 0;
 	border-bottom: 2px solid #5c87ff;
+	min-width: 144px;
 }
 
 .nav-sec:hover {
@@ -92,7 +92,6 @@ a:hover {
 
 @media (min-width: 550px) {
 	.nav-sec {
-		width: 100%;
 		border-left: 0;
 		border-right: 0;
 	}
