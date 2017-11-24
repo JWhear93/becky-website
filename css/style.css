@@ -154,3 +154,15 @@ a:hover {
 	padding: 15px;
 	font-size: 1.1em;
 }
+
+#foot-title {
+	text-align: center;
+	margin: 0 auto;
+	font-family: 'Dancing Script', cursive;
+	font-size: 3em;
+	color: #5c87ff;
+}
+
+#foot-title a:hover {
+	text-decoration: none;
+}
