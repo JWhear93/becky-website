@@ -73,7 +73,116 @@
 	<div class="container">
 		<div id="main-area">
 			<div class="row">
-				
+				<div class="twelve columns">
+					<h3 class="center-text">Bookings.</h3>
+				</div>
+			</div>
+			<div class="row">
+				<div class="main-text">
+					<p class="center-text">
+						Please email us for availability (including late deals and short breaks) and booking information or use the contact form below.
+					</p>
+					<p class="center-text">
+						Prices range from xxx per week in low season to xxx per week in high season. Short breaks are available outside of high season.
+					</p>
+					<p class="center-text">
+						To secure a booking, a 25% booking deposit will be needed. This can be paid by cheque or online transfer.
+					</p>
+					<p class="center-text">
+						Dogs will be charged at an extra £20 fee per stay.
+					</p>
+				</div>
+			</div>
+			<div>
+				<form style="font-size: 1.3em;" action="mailto:jaweebelow420@gmail.com" method="post" enctype="text/plain">
+					<fieldset>
+						<legend>Contact form:</legend>
+						<div class="row">
+							<div class="six columns">
+								<label for="firstNameInput">First name</label>
+								<input class="u-full-width" placeholder="First name" id="firstNameInput" type="text" name="First name">
+							</div>
+							<div class="six columns">
+								<label for="lastNameInput">Last name</label>
+								<input class="u-full-width" placeholder="Last name" id="lastNameInput" type="text" name="Last name">
+							</div>
+						</div>
+						<div class="row">
+							<div class="six columns">
+								<label for="emailInput">E-mail</label>
+								<input class="u-full-width" placeholder="E-mail address" id="emailInput" type="email" name="E-mail address">
+							</div>
+							<div class="six columns">
+								<label for="phoneNumberInput">Phone number</label>
+								<input class="u-full-width" placeholder="Phone number" id="phoneNumberInput" type="text" name="Phone number">
+							</div>
+						</div>
+						<div class="row">
+							<div class="six columns">
+								<label for="fromDateInput">From this date</label>
+								<input class="u-full-width" placeholder="1/01/2018" id="fromDateInput" type="date" name="Requested from-date">
+							</div>
+							<div class="six columns">
+								<label for="toDateInput">To this date</label>
+								<input class="u-full-width" placeholder="1/02/2018" id="toDateInput" type="date" name="Requested to-date">
+							</div>
+						</div>
+						<div class="row">
+							<div class="six columns">
+								<label for="numberAdultInput">How many adults</label>
+								<input class="u-full-width" placeholder="1" id="numberAdultInput" type="number" name="Number of adults" min="1" max="4">
+							</div>
+							<div class="six columns">
+								<label for="numberChildInput">How many children</label>
+								<input class="u-full-width" placeholder="0" id="numberChildInput" type="number" name="Number of children" min="0" max="3">
+							</div>
+						</div>
+						<div class="row">
+							<div class="six columns">
+								<label for="childAgeInput">Age of children</label>
+								<input class="u-full-width" placeholder="6, 14, 17" id="childAgeInput" type="text" name="Age of children">
+							</div>
+							<div class="six columns">
+								<br><input id="dogInput" type="checkbox" name="Have a dog?" value="Yes - Dog"> - Tick if you have a dog
+							</div>
+						</div>
+						<div class="row">
+							<div class="six columns">
+								<label for="addressInput">Address line 1</label>
+								<input class="u-full-width" placeholder="Address" id="addressInput" type="text" name="Address line 1">
+							</div>
+							<div class="six columns">
+								<label for="addressCityInput">Town / City</label>
+								<input class="u-full-width" placeholder="Your town or city" id="addressCityInput" type="text" name="City / Town">
+							</div>
+						</div>
+						<div class="row">
+							<div class="six columns">
+								<label for="postCodeInput">Post code</label>
+								<input class="u-full-width" placeholder="Post code" id="postCodeInput" type="text" name="Post code">
+							</div>
+							<div class="six columns">
+								<label for="countryInput">Country</label>
+								<input class="u-full-width" placeholder="Country" id="countryInput" type="text" name="Country">
+							</div>
+						</div>
+						<div class="row">
+							<div class="six columns">
+								<label for="adultNamesInput">List of names</label>
+								<textarea class="u-full-width" placeholder="List names of adult guests here" id="adultNamesInput" type="text" name="List of adults names"></textarea>
+							</div>
+							<div class="six columns">
+								<label for="messageInput">Query or message to owner</label>
+								<textarea class="u-full-width" placeholder="Type your message here" id="messageInput" type="text" name="Final notes / message"></textarea>
+							</div>
+						</div>
+						<div class="row">
+							<div class="two columns">
+								<input style="font-size: 1.2em;" class="button-primary" value="Submit" type="submit">
+							</div>
+						</div>
+					</fieldset>
+				</form>
 			</div>
 		</div>
 	</div>
