@@ -29,7 +29,6 @@ a:hover {
 	margin: 0 auto;
 	font-family: 'Dancing Script', cursive;
 	font-size: 4.2em;
-	color: #5c87ff;
 }
 
 #main-title a:hover {
@@ -63,31 +62,18 @@ a:hover {
 #nav {
 	margin-top: 5px;
 	font-size: 1.4em;
-	background: #5c87ff;
-}
-
-#nav a {
-	color: #FFF;
-}
-
-#nav a:active {
-	background: white;
-}
-
-#nav a:hover {
-	color: #5c87ff;
+	background: linear-gradient(white, #c3dcfe);
+	background: -o-linear-gradient (white, #c3dcfe);
+	background: -moz-linear-gradient (white, #c3dcfe);
+	background: -webkit-linear-gradient (white, #c3dcfe);
 }
 
 .nav-sec {
 	text-align: center;
 	border-left: 0;
 	border-right: 0;
-	border-bottom: 4px solid #5c87ff;
 	padding: 10px;
-}
-
-.nav-sec:hover {
-	border-bottom: 4px solid #5c87ff;
+	border-radius: 25%;
 }
 
 @media (min-width: 550px) {
@@ -95,10 +81,6 @@ a:hover {
 		border-left: 0;
 		border-right: 0;
 	}
-}
-
-.nav-sec:hover {
-	background: white;
 }
 
 /* Main area */
