@@ -1,10 +1,11 @@
 /* Top css */
 html {
-	background:url(../images/concrete-wall.png) #d9e9ff;
+	background:url(../images/concrete-wall.png) rgb(173, 224, 249);
 }
 
 body {
-	font-family: 'Abel', sans-serif;
+	font-family: 'Open Sans', sans-serif;
+	color: rgb(22, 212, 212);
 }
 
 .container {
@@ -17,7 +18,7 @@ body {
 
 a {
 	text-decoration: none;
-	color: #00A0D2;
+	color: rgb(22, 212, 212);
 }
 
 a:hover {
@@ -54,26 +55,23 @@ a:hover {
 /* Nav section */
 
 #nav {
-	margin-top: 5px;
-	font-size: 1.4em;
-	background: linear-gradient(white, #c3dcfe);
-	background: -o-linear-gradient (white, #c3dcfe);
-	background: -moz-linear-gradient (white, #c3dcfe);
-	background: -webkit-linear-gradient (white, #c3dcfe);
+	font-size: 1.1em;
+	background: linear-gradient(white, rgb(173, 224, 249));
+	background: -o-linear-gradient (white, rgb(173, 224, 249));
+	background: -moz-linear-gradient (white, rgb(173, 224, 249));
+	background: -webkit-linear-gradient (white, rgb(173, 224, 249));
 }
 
 .nav-sec {
 	text-align: center;
-	border-left: 0;
-	border-right: 0;
-	padding: 10px;
-	border-radius: 25%;
+	border: 2px solid;
+	border-radius: 5%;
+	padding: 10px 0;
 }
 
 @media (min-width: 550px) {
 	.nav-sec {
-		border-left: 0;
-		border-right: 0;
+
 	}
 }
 
@@ -89,6 +87,7 @@ a:hover {
 
 .main-text {
 	font-size: 1.3em;
+	color: black;
 }
 
 .main-text p::first-letter {
