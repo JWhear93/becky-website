@@ -128,6 +128,12 @@ a:hover {
 	padding: 10px;
 }
 
+.review-sec {
+	border: 5px solid #c3dcfe;
+	border-radius: 10%;
+	padding: 5px;
+}
+
 /* Footer */
 
 #footer {
