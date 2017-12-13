@@ -102,7 +102,7 @@ a:hover {
 .about-img {
 	max-height: 100%;
 	padding: 10px;
-	background: #c3dcfe;
+	background: rgb(173, 224, 249);
 }
 
 .center-text {
