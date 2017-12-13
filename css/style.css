@@ -68,13 +68,16 @@ a:hover {
 	border: 2px solid rgb(22, 212, 212);
 	border-radius: 5%;
 	padding: 10px 0;
-	min-width: 170px;
+	min-width: 180px;
 }
 
-@media (min-width: 550px) {
-	.nav-sec {
+.nav-sec:active {
+	color: white;
+	background: rgb(173, 224, 249);
+}
 
-	}
+.nav-sec:hover {
+	font-weight: bolder;
 }
 
 /* Main area */
