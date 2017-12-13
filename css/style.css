@@ -64,6 +64,7 @@ a:hover {
 	border: 2px solid rgb(22, 212, 212);
 	border-radius: 5%;
 	padding: 10px 0;
+	min-width: 170px;
 }
 
 @media (min-width: 550px) {
