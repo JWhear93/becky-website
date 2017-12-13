@@ -30,6 +30,10 @@
 	–––––––––––––––––––––––––––––––––––––––––––––––––– -->
 	<link rel="icon" type="image/png" href="../images/favicon.png">
 
+	<!-- Scripts
+	–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+	<script language="JavaScript" src="../scripts/gen_validatorv31.js" type="text/javascript"></script>
+
 </head>
 <body>
 
@@ -78,86 +82,87 @@
 				</div>
 			</div>
 			<div>
-				<form style="font-size: 1.3em; color: black;" action="mailto:jaweebelow420@gmail.com" method="post" enctype="text/plain">
+				<form style="font-size: 1.3em; color: black;" method="POST" name="contactform" action="contact-form-handler.php">
 					<fieldset>
 						<legend>Contact form:</legend>
 						<div class="row">
 							<div class="six columns">
-								<label for="firstNameInput">First name</label>
-								<input class="u-full-width" placeholder="First name" id="firstNameInput" type="text" name="First name">
+								<label for="name">First name</label>
+								<input class="u-full-width" placeholder="First name" type="text" name="name">
 							</div>
 							<div class="six columns">
-								<label for="lastNameInput">Last name</label>
-								<input class="u-full-width" placeholder="Last name" id="lastNameInput" type="text" name="Last name">
-							</div>
-						</div>
-						<div class="row">
-							<div class="six columns">
-								<label for="emailInput">E-mail</label>
-								<input class="u-full-width" placeholder="E-mail address" id="emailInput" type="email" name="E-mail address">
-							</div>
-							<div class="six columns">
-								<label for="phoneNumberInput">Phone number</label>
-								<input class="u-full-width" placeholder="Phone number" id="phoneNumberInput" type="text" name="Phone number">
+								<label for="lastName">Last name</label>
+								<input class="u-full-width" placeholder="Last name" type="text" name="lastName">
 							</div>
 						</div>
 						<div class="row">
 							<div class="six columns">
-								<label for="fromDateInput">From this date</label>
-								<input class="u-full-width" placeholder="1/01/2018" id="fromDateInput" type="date" name="Requested from-date">
+								<label for="email">E-mail</label>
+								<input class="u-full-width" placeholder="E-mail address" type="email" name="email">
 							</div>
 							<div class="six columns">
-								<label for="toDateInput">To this date</label>
-								<input class="u-full-width" placeholder="1/02/2018" id="toDateInput" type="date" name="Requested to-date">
-							</div>
-						</div>
-						<div class="row">
-							<div class="six columns">
-								<label for="numberAdultInput">How many adults</label>
-								<input class="u-full-width" placeholder="1" id="numberAdultInput" type="number" name="Number of adults" min="1" max="4">
-							</div>
-							<div class="six columns">
-								<label for="numberChildInput">How many children</label>
-								<input class="u-full-width" placeholder="0" id="numberChildInput" type="number" name="Number of children" min="0" max="3">
+								<label for="phoneNumber">Phone number</label>
+								<input class="u-full-width" placeholder="Phone number" type="text" name="phoneNumber">
 							</div>
 						</div>
 						<div class="row">
 							<div class="six columns">
-								<label for="childAgeInput">Age of children</label>
-								<input class="u-full-width" placeholder="6, 14, 17" id="childAgeInput" type="text" name="Age of children">
+								<label for="fromDate">From this date</label>
+								<input class="u-full-width" placeholder="1/01/2018" type="date" name="fromDate">
 							</div>
 							<div class="six columns">
-								<br><input id="dogInput" type="checkbox" name="Have a dog?" value="Yes - Dog"> - Tick if you have a dog
-							</div>
-						</div>
-						<div class="row">
-							<div class="six columns">
-								<label for="addressInput">Address line 1</label>
-								<input class="u-full-width" placeholder="Address" id="addressInput" type="text" name="Address line 1">
-							</div>
-							<div class="six columns">
-								<label for="addressCityInput">Town / City</label>
-								<input class="u-full-width" placeholder="Your town or city" id="addressCityInput" type="text" name="City / Town">
+								<label for="toDate">To this date</label>
+								<input class="u-full-width" placeholder="1/02/2018" type="date" name="toDate">
 							</div>
 						</div>
 						<div class="row">
 							<div class="six columns">
-								<label for="postCodeInput">Post code</label>
-								<input class="u-full-width" placeholder="Post code" id="postCodeInput" type="text" name="Post code">
+								<label for="numberAdults">How many adults</label>
+								<input class="u-full-width" type="number" name="numberAdults" min="1" max="4">
 							</div>
 							<div class="six columns">
-								<label for="countryInput">Country</label>
-								<input class="u-full-width" placeholder="Country" id="countryInput" type="text" name="Country">
+								<label for="numberChildren">How many children</label>
+								<input class="u-full-width" type="number" name="numberChildren" min="0" max="3">
 							</div>
 						</div>
 						<div class="row">
 							<div class="six columns">
-								<label for="adultNamesInput">List of names</label>
-								<textarea class="u-full-width" placeholder="List names of adult guests here" id="adultNamesInput" type="text" name="List of adults names"></textarea>
+								<label for="ageChildren">Age of children</label>
+								<input class="u-full-width" placeholder="N/A" type="text" name="ageChildren">
 							</div>
 							<div class="six columns">
-								<label for="messageInput">Query or message to owner</label>
-								<textarea class="u-full-width" placeholder="Type your message here" id="messageInput" type="text" name="Final notes / message"></textarea>
+								<label for="haveDog">How many dogs (max 1.)</label>
+								<input class="u-full-width" type="number" name="haveDog" min="0" max="1">
+							</div>
+						</div>
+						<div class="row">
+							<div class="six columns">
+								<label for="address">Address line 1</label>
+								<input class="u-full-width" placeholder="Address" type="text" name="address">
+							</div>
+							<div class="six columns">
+								<label for="city">Town / City</label>
+								<input class="u-full-width" placeholder="Your town or city" type="text" name="city">
+							</div>
+						</div>
+						<div class="row">
+							<div class="six columns">
+								<label for="postCode">Post code</label>
+								<input class="u-full-width" placeholder="Post code" type="text" name="postCode">
+							</div>
+							<div class="six columns">
+								<label for="country">Country</label>
+								<input class="u-full-width" placeholder="Country" type="text" name="country">
+							</div>
+						</div>
+						<div class="row">
+							<div class="six columns">
+								<label for="namesList">List of names</label>
+								<textarea class="u-full-width" placeholder="List names of adult guests here" type="text" name="namesList"></textarea>
+							</div>
+							<div class="six columns">
+								<label for="message">Query or message to owner</label>
+								<textarea class="u-full-width" placeholder="Type your message here" type="text" name="message"></textarea>
 							</div>
 						</div>
 						<div class="row">
@@ -166,7 +171,7 @@
 							</div>
 							<div class="eight columns">
 								<p>
-									By making a booking you agree to our <a href="../terms/white-cove-terms.pdf" download target="_blank">Terms and Conditions.</a>
+									By making a booking you agree to our <a href="../terms/white-cove-terms.pdf" target="_blank">Terms and Conditions.</a>
 								</p>
 							</div>
 						</div>
@@ -203,7 +208,19 @@
 			</div>
 		</div>
 	</div>
-
+<script language="JavaScript">
+// Code for validating the form
+// Visit http://www.javascript-coder.com/html-form/javascript-form-validation.phtml
+// for details
+var frmvalidator  = new Validator("contactform");
+frmvalidator.addValidation("name","req","Please provide your name"); 
+frmvalidator.addValidation("email","req","Please provide your email"); 
+frmvalidator.addValidation("email","email","Please enter a valid email address"); 
+</script>
+<!--
+Sample code from:
+http://www.html-form-guide.com/contact-form/php-email-contact-form.html
+-->
 <!-- End Document
 	–––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>
