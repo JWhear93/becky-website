@@ -43,6 +43,7 @@ a:hover {
 #primary-contact {
 	float: right;
 	padding-top: 0;
+	margin-top: 5px;
 }
 
 @media (min-width: 550px) {
@@ -69,7 +70,7 @@ a:hover {
 	overflow: hidden;
 	text-overflow: ellipsis;
 	cursor: pointer;
-	border: 2px solid rgb(173, 224, 249);
+	border: 2px solid rgb(22, 212, 212);
 	border-radius: 5px;
 	background: white;
 }
@@ -77,6 +78,7 @@ a:hover {
 .nav-text:hover {
 	font-weight: bolder;
 	background: rgb(173, 224, 249);
+	border-color: white;
 }
 
 .nav-text:active {
