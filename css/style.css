@@ -61,7 +61,7 @@ a:hover {
 
 #nav {
 	margin-top: 5px;
-	background: rgb(173, 224, 249);
+	background: linear-gradient(white 1%, rgb(173, 224, 249));
 }
 
 .nav-text {
