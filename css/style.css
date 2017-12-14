@@ -59,25 +59,28 @@ a:hover {
 /* Nav section */
 
 #nav {
-	font-size: 1.1em;
 	margin-top: 5px;
-}
-
-.nav-sec {
-	text-align: center;
-	border: 2px solid rgb(22, 212, 212);
-	border-radius: 5%;
-	padding: 10px 0;
-	min-width: 180px;
-}
-
-.nav-sec:active {
-	color: white;
 	background: rgb(173, 224, 249);
 }
 
-.nav-sec:hover {
+.nav-text {
+	text-align: center;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	cursor: pointer;
+	border: 2px solid rgb(173, 224, 249);
+	border-radius: 5px;
+	background: white;
+}
+
+.nav-text:hover {
 	font-weight: bolder;
+	background: rgb(173, 224, 249);
+}
+
+.nav-text:active {
+	background: white;
 }
 
 /* Main area */
