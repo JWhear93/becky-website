@@ -5,7 +5,7 @@ html {
 
 body {
 	font-family: 'Open Sans', sans-serif;
-	color: rgb(22, 212, 212);
+	color: rgb(21, 184, 228);
 }
 
 .container {
@@ -18,15 +18,11 @@ body {
 
 a {
 	text-decoration: none;
-	color: rgb(22, 212, 212);
+	color: rgb(21, 184, 228);
 }
 
 a:hover {
 	text-decoration: underline;
-}
-
-.shadow {
-	text-shadow: 1px 1px 0 black;
 }
 
 #title {
@@ -70,19 +66,22 @@ a:hover {
 	overflow: hidden;
 	text-overflow: ellipsis;
 	cursor: pointer;
-	border: 2px solid rgb(22, 212, 212);
+	border: 2px solid rgb(21, 184, 228);
 	border-radius: 5px;
 	background: white;
 }
 
 .nav-text:hover {
 	font-weight: bolder;
-	background: rgb(173, 224, 249);
-	border-color: white;
+	background: rgb(209, 240, 255);
 }
 
 .nav-text:active {
 	background: white;
+}
+
+#nav a:hover {
+	text-decoration: none;
 }
 
 /* Main area */
