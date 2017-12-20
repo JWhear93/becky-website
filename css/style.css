@@ -175,7 +175,7 @@ a:hover {
 }
 
 #footer li {
-	overflow: hidden;
+	overflow: auto;
 	text-overflow: ellipsis;
 	padding-left: 2px;
 }
