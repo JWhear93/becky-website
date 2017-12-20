@@ -140,10 +140,6 @@ a:hover {
 
 
 @media (min-width: 550px) {
-	.single-img {
-		margin-left: 50%;
-	}
-
 	.short-img {
 		margin-top: 25%;
 	}
