@@ -138,6 +138,22 @@ a:hover {
 	padding: 5px;
 }
 
+
+@media (min-width: 550px) {
+	.single-img {
+		margin-left: 50%;
+	}
+
+	.short-img {
+		margin-top: 25%;
+	}
+}
+
+.ac-list {
+	font-size: 1.1em;
+	margin-top: 5px;
+}
+
 /* Footer */
 
 #footer {
@@ -165,6 +181,7 @@ a:hover {
 #footer li {
 	overflow: hidden;
 	text-overflow: ellipsis;
+	padding-left: 2px;
 }
 
 .foot-list-title {
