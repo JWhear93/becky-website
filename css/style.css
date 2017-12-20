@@ -45,6 +45,7 @@ a:hover {
 @media (min-width: 550px) {
 	#primary-contact {
 		padding-top: 40px;
+		min-width: 318px;
 	}
 }
 
@@ -159,6 +160,11 @@ a:hover {
 
 #footer div {
 	margin: 10px auto;
+}
+
+#footer li {
+	overflow: hidden;
+	text-overflow: ellipsis;
 }
 
 .foot-list-title {
